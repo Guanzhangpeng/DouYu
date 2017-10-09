@@ -11,6 +11,12 @@
 		198ECA451F8B1EAE000E0BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA431F8B1EAE000E0BE3 /* Main.storyboard */; };
 		198ECA471F8B1EAE000E0BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA461F8B1EAE000E0BE3 /* Assets.xcassets */; };
 		198ECA4A1F8B1EAE000E0BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA481F8B1EAE000E0BE3 /* LaunchScreen.storyboard */; };
+		198ECA591F8B2638000E0BE3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198ECA581F8B2638000E0BE3 /* HomeController.swift */; };
+		198ECA5C1F8B2A1B000E0BE3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA5A1F8B2A1B000E0BE3 /* Home.storyboard */; };
+		198ECA5E1F8B2A3B000E0BE3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA5D1F8B2A3B000E0BE3 /* Live.storyboard */; };
+		198ECA611F8B2A52000E0BE3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA5F1F8B2A52000E0BE3 /* Follow.storyboard */; };
+		198ECA631F8B2BCE000E0BE3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 198ECA621F8B2BCE000E0BE3 /* Profile.storyboard */; };
+		198ECA651F8B3B5A000E0BE3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198ECA641F8B3B5A000E0BE3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		198ECA461F8B1EAE000E0BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		198ECA491F8B1EAE000E0BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198ECA4B1F8B1EAE000E0BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198ECA581F8B2638000E0BE3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		198ECA5B1F8B2A1B000E0BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYu/Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		198ECA5D1F8B2A3B000E0BE3 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		198ECA601F8B2A52000E0BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYu/Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		198ECA621F8B2BCE000E0BE3 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		198ECA641F8B3B5A000E0BE3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,10 @@
 		198ECA331F8B1EAD000E0BE3 = {
 			isa = PBXGroup;
 			children = (
+				198ECA621F8B2BCE000E0BE3 /* Profile.storyboard */,
+				198ECA5F1F8B2A52000E0BE3 /* Follow.storyboard */,
+				198ECA5D1F8B2A3B000E0BE3 /* Live.storyboard */,
+				198ECA5A1F8B2A1B000E0BE3 /* Home.storyboard */,
 				198ECA3E1F8B1EAE000E0BE3 /* DouYu */,
 				198ECA3D1F8B1EAE000E0BE3 /* Products */,
 			);
@@ -85,6 +101,7 @@
 		198ECA531F8B1FF6000E0BE3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				198ECA581F8B2638000E0BE3 /* HomeController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -99,6 +116,7 @@
 		198ECA551F8B1FF6000E0BE3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				198ECA641F8B3B5A000E0BE3 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -179,6 +197,10 @@
 				198ECA4A1F8B1EAE000E0BE3 /* LaunchScreen.storyboard in Resources */,
 				198ECA471F8B1EAE000E0BE3 /* Assets.xcassets in Resources */,
 				198ECA451F8B1EAE000E0BE3 /* Main.storyboard in Resources */,
+				198ECA5E1F8B2A3B000E0BE3 /* Live.storyboard in Resources */,
+				198ECA5C1F8B2A1B000E0BE3 /* Home.storyboard in Resources */,
+				198ECA631F8B2BCE000E0BE3 /* Profile.storyboard in Resources */,
+				198ECA611F8B2A52000E0BE3 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				198ECA651F8B3B5A000E0BE3 /* MainViewController.swift in Sources */,
+				198ECA591F8B2638000E0BE3 /* HomeController.swift in Sources */,
 				198ECA401F8B1EAE000E0BE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +234,22 @@
 				198ECA491F8B1EAE000E0BE3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		198ECA5A1F8B2A1B000E0BE3 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198ECA5B1F8B2A1B000E0BE3 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		198ECA5F1F8B2A52000E0BE3 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				198ECA601F8B2A52000E0BE3 /* Base */,
+			);
+			name = Follow.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -326,7 +366,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -341,7 +380,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
