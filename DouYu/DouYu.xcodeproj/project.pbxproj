@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1926426A1F8C5CCC00D8575F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192642691F8C5CCC00D8575F /* HomeController.swift */; };
+		1940A1321F8CCCA0002A2D61 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1965313C1F8CC52C00272B39 /* MainViewController.swift */; };
 		196531391F8CB6F800272B39 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196531371F8CB6F800272B39 /* CollectionHeaderView.swift */; };
 		1965313A1F8CB6F800272B39 /* CollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 196531381F8CB6F800272B39 /* CollectionHeaderView.xib */; };
 		196531411F8CC54800272B39 /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1965313F1F8CC54800272B39 /* CollectionNormalCell.swift */; };
@@ -373,6 +374,7 @@
 				1926426A1F8C5CCC00D8575F /* HomeController.swift in Sources */,
 				1974D7321F8CA4F8000DB5D2 /* Common.swift in Sources */,
 				196531391F8CB6F800272B39 /* CollectionHeaderView.swift in Sources */,
+				1940A1321F8CCCA0002A2D61 /* MainViewController.swift in Sources */,
 				1974D7341F8CA562000DB5D2 /* UIColor-Extension.swift in Sources */,
 				1974D72F1F8CA07B000DB5D2 /* RecommendController.swift in Sources */,
 			);
